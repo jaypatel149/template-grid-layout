@@ -11,7 +11,7 @@
 .row-grid {
   display: grid;
   grid-template-columns: auto auto auto;
-  margin-bottom: 5px;
+  border: 1px solid red;
 }
 .grid__item {
   padding: 1.5rem;
@@ -22,7 +22,7 @@
 .row-grid-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: 5px;
+  border: 1px solid red;
 }
 .d-flex{
     display: grid;
@@ -36,8 +36,8 @@
 
 .row-grid-3 {
     display: grid;
-    grid-template-columns: 350px 200px 200px auto;
-    margin-bottom: 5px;
+    grid-template-columns: 500px 300px 300px auto;
+    border: 1px solid red;
 }
 .d-grid{
     display: grid;
@@ -54,11 +54,13 @@
 .row-grid-4 {
     display: grid;
     grid-template-columns: auto auto;
+  border: 1px solid red;
 }
 
 .row-grid-5 {
     display: grid;
     grid-template-columns: auto auto;
+  border: 1px solid red;
 }
 
 
